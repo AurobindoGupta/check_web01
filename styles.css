@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&display=swap');
 :root{
     --primary-color:#6EE7B7;
+    --header_heading-color:#6B7280;
 }
 body{
     font-family: 'Shippori Mincho', serif;
@@ -67,4 +68,20 @@ hr{
 }
 .navigation .if-active{
     font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding: 1rem;
+    color:var(--header_heading-color) ;
+
+}
+.hero .hero-heading .heading-highlight{
+    color: var(--primary-color);
 }
