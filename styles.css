@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Shippori Mincho', serif;
+    margin: 0px;
 }
 
 hr {
@@ -21,12 +22,13 @@ hr {
 }
 
 .container_fluid {
-    
+
 }
 
 .container_centre {
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 /* links */
@@ -51,7 +53,7 @@ hr {
 }
 
 /* Lists */
-.unordered {
+.unordered-non-bullet{
     list-style: none;
 }
 
@@ -98,6 +100,7 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding: 1rem;
     color: var(--header_heading-color);
 
@@ -117,4 +120,18 @@ hr {
 }
 .ow{
     background-color: var(--offwhite_grey-color);
+}
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .links{
+    color: white;
+}
+.footer ul{
+    padding-inline-start:0px
 }
