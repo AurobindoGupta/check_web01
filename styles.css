@@ -29,7 +29,7 @@ hr {
 .container_centre {
     max-width: 600px;
     margin: auto;
-    text-align: center;
+
 }
 
 /* links */
@@ -130,9 +130,15 @@ hr {
 .section{
     padding: 2rem;
 }
-.section h1 {
+/* .section h1 {
     
     text-align: center;
+} */
+.section .home-page{
+    text-align: center;
+}
+.section .blog{
+    text-align: left;
 }
 .ow{
     background-color: var(--offwhite_grey-color);
