@@ -10,7 +10,7 @@
 body {
     font-family: 'Shippori Mincho', serif;
     margin: 0px;
-}
+   }
 
 hr {
     margin: 2rem 0rem;
@@ -54,7 +54,7 @@ hr {
 }
 
 /* Lists */
-.unordered-non-bullet{
+.unordered{
     list-style: none;
 }
 
@@ -69,7 +69,8 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-
+    position: relative;
+            
 }
 
 .navigation .nav-brand {
@@ -77,18 +78,31 @@ hr {
     font-weight: bold;
 }
 
+
 .navigation .link {
     color: white;
 
 }
 
-.navigation .nav-pills {
-    text-align: right;
+.navigation .nav-pills li {
+    display: inline;   
 }
 
 .navigation .if-active {
     font-weight:bold;
 }
+.nav-img{
+    height: 2rem;
+    padding: 0rem 0rem;
+}
+.nav-menu{
+    float: right;
+}
+.navigation ul {
+    padding-inline-start: 0px;
+}
+  
+
 
 .hero {
     padding: 2rem;
